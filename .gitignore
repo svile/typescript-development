@@ -1,0 +1,17 @@
+# General
+build/
+logs/
+dist/
+node_modules/
+npm-debug.*
+*.log
+.env*
+
+# Typescript incremental build information
+.tsbuildinfo
+
+# Testing
+coverage/
+
+# macOS
+.DS_Store

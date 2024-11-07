@@ -1,0 +1,37 @@
+{
+  "name": "@svile/typescript-development",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "private": false,
+  "exports": {
+    "./eslint": "./eslint.mjs",
+    "./prettier": "./prettier.mjs"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "format": "prettier --write '**/*.(ts|tsx|js|jsx|mjs)'",
+    "format:check": "prettier --check '**/*.(ts|tsx|js|jsx|mjs)'",
+    "lint": "eslint",
+    "build:check": "tsc --noEmit true"
+  },
+  "peerDependencies": {
+    "eslint": "9.x",
+    "prettier": "3.x",
+    "typescript": "5.x"
+  },
+  "dependencies": {
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-tailwindcss": "^3.17.5",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "typescript-eslint": "^8.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.14.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  }
+}
