@@ -6,7 +6,8 @@
   "private": false,
   "exports": {
     "./eslint": "./eslint.mjs",
-    "./prettier": "./prettier.mjs"
+    "./prettier": "./prettier.mjs",
+    "./tsconfig": "./tsconfig.json"
   },
   "files": [
     "tsconfig.json"
